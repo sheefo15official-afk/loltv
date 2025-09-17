@@ -1,0 +1,12 @@
+{
+  "movies": [
+    {
+      "title": "Movie 1",
+      "image": "https://via.placeholder.com/300x400",
+      "description": "Description 1",
+      "seasons": [
+        { "name": "Full Movie", "servers": ["https://example.com/m1.mp4"] }
+      ]
+    }
+  ]
+}

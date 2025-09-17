@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StreamBox</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+</head>
+<body>
+
+<header>
+  <h1>StreamBox</h1>
+  <nav>
+    <a href="#" id="moviesTab" class="active">Movies</a>
+    <a href="#" id="seriesTab">Series</a>
+  </nav>
+</header>
+
+<main>
+  <section id="moviesSection" class="content active">
+    <div class="grid" id="moviesGrid"></div>
+  </section>
+
+  <section id="seriesSection" class="content">
+    <div class="grid" id="seriesGrid"></div>
+  </section>
+</main>
+
+<!-- Modal -->
+<div class="modal" id="detailsModal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalDescription"></p>
+    <div id="seasonContainer"></div>
+    <select id="serverSelect"></select>
+    <video id="videoPlayer" class="plyr__video-embed" controls></video>
+  </div>
+</div>
+
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

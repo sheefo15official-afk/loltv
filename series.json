@@ -1,0 +1,12 @@
+{
+  "series": [
+    {
+      "title": "Series 1",
+      "image": "https://via.placeholder.com/300x400",
+      "description": "Description S1",
+      "seasons": [
+        { "name": "S1 Ep1", "servers": ["https://example.com/s1e1.mp4"] }
+      ]
+    }
+  ]
+}
